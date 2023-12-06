@@ -9,14 +9,6 @@
     margin: 0;
 }
 
-body {
-
-}
-
-header {
-
-}
-
 a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.801);
@@ -133,4 +125,25 @@ a {
 
 .home-section-button:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 1600px) {
+    #home-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 20px;
+        scale: 70%;
+    }
+
+    .home-section-text {
+        padding-top: 20px;
+        width: 492px;
+        height: 346px;
+    }
+
+    .home-section-img-ilustration {
+        width: 706px;
+        height: 451px;
+    }
 }
